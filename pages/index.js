@@ -11,6 +11,9 @@ export default function Home(props) {
       <Head>
         <title>Hulu 2.0</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta property="og:title" content="Hulu Manu" />
+        <meta name="description" property='og:description' content="Pagina Clone de Hulu con NextJS y Tailwindcss" />
+        <meta name="description" property='og:image' content="/main.png" />
       </Head>
 
       {/* Header Component */}
